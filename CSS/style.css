@@ -336,6 +336,7 @@ font-family: "Inter", sans-serif;
 /* footer area */
 .footer{
     background: #fff;
+    border: 1px solid rgba(212, 209, 209, 0.5);
    
 }
 .footer .footer-area{
@@ -374,7 +375,12 @@ font-family: "Inter", sans-serif;
 
 
 
-
-/* .btn-common:hover{
+/* all hover effects */
+.btn-common:hover{
     background: rgb(57,181,186);
-} */
+}
+
+.footer .footer-area .footer-links ul li:hover a{
+    color: #4E47FF;
+}
+/* all hover effects */
