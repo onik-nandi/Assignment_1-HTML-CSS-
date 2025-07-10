@@ -12,7 +12,7 @@
 }
 body{
     margin: 0 auto;
-    
+    background: rgb(245,248,255);
 }
 /* common area */
 /* color section */
@@ -37,12 +37,19 @@ body{
 .pera_txt{
   font-family: "Inter", sans-serif;
   font-weight: regular;
-  font-style: normal
+  font-style: normal;
+}
+.pera_semib{
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #757575;
+    font-size: 16px;
 }
 .pera_head{
     font-family: "Inter", sans-serif;
   font-weight: bold;
-  font-style: normal  
+  font-style: normal;
 }
 /* common  text area*/
 
@@ -101,6 +108,7 @@ body{
 main{
     max-width: 1140px;
     margin: 0 auto;
+    background: rgb(245,248,255);
 }
 /* action area */
 .action-content {
@@ -173,6 +181,67 @@ main{
     color: rgba(0, 0, 0, 0.5);
 }
 /* Productive Users Section */
+/* User's Feedback Section */
+.user-feedback-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 130px;
+}
+.user-title-txt{
+    font-size: 42px;
+    color: #252432;
+}
+.user-feedback-area .user-review{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.user-feedback-area .user-review .user-review-conent {
+    width: 367px;
+    padding: 0 24px;
+    background: #ffffff7f;
+    border: 1px solid #F2EDED;
+    border-radius: 14px;
+}
+.user-feedback-area .user-review .user-review-conent span{
+    margin-top: 20px;
+    display: block;
+}
+.user-feedback-area .user-review .user-review-conent .user-h3{
+    font-size: 24px;
+    color: #1E1E1E;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.user-feedback-area .user-review .user-review-conent .user-pera{
+    font-size: 16px;
+    color: #1E1E1E;
+    padding-top: 5px;
+    padding-bottom: 24px;
+}
+.user-feedback-area .user-review .reviewer{
+    display: flex;
+    gap: 12px;
+}
+.user-feedback-area .user-review .reviewer .reviewer-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.user-feedback-area .user-review .reviewer .reviewer-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.user-feedback-area .user-review .reviewer .reviewer_name .reviewe-date{
+    font-size: 16px;
+    color: #B3B3B3;
 
+}
+/* User's Feedback Section */
 
 /* main  area */
