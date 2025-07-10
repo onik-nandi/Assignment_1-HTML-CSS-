@@ -243,5 +243,36 @@ main{
 
 }
 /* User's Feedback Section */
+/* ready to focus area */
+.focus-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    flex-direction: column;
+    text-align: center;
+    background: #fff;
+    padding: 71px 0;
+    border-radius: 14px;
+}
+.focus-area .focus-contant .focus-head{
+    font-size: 50px;
+    color: #000000;
+    line-height: 120%;
+}
+.focus-area .focus-contant .focus-pera{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
+}
+.focus-area .focus-contant .btn-focus{
+    padding: 12px 36px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.focus-area img{
+    border-radius: 48px;
+}
 
+/* ready to focus area */
 /* main  area */
