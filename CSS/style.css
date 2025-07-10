@@ -1,0 +1,95 @@
+/* font import area */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* font import area */
+
+
+
+/* common area */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    
+}
+/* common area */
+/* color section */
+.primary-bgcolor{
+    background: #4E47FF;
+}
+.btn-common{
+    background: #4E47FF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+/* color section */
+/*  text area*/
+.header_txt{
+ font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+.pera_txt{
+  font-family: "Inter", sans-serif;
+  font-weight: regular;
+  font-style: normal
+}
+
+/* common  text area*/
+
+/* header */
+.header-bg{
+    background:url(../Images/Hero-bg.png) no-repeat center;
+    width: 100%;
+    background-size: cover;
+}
+
+
+/* nav  */
+.header-bg .nav-area{
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+     margin: 0 auto;
+    
+}
+.header-bg .nav-area .logo{
+     font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 34px;
+
+}
+.header-bg .nav-area .logo a{
+    text-decoration: none;
+        color: #4E47FF;
+}
+.header-bg .nav-area .nav-button{
+    font-size: 16px;
+}
+/* nav ends */
+/* banner area starts */
+.banner-area{
+    max-width: 1140px;
+    margin: 150px auto;
+    text-align: center;
+}
+.banner-area .banner-h1{
+    font-size: 65px;
+    padding: 0 150px;
+}
+.banner-area .btn-banner{
+    padding: 15px 25px;
+    margin-top: 37px;
+    margin-bottom: 100px;
+    font-size: 16px;
+}
+/* banner area ends */
+
+/* header */
